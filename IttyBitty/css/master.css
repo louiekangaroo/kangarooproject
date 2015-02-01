@@ -1,0 +1,157 @@
+/*************************
+*******Header******
+**************************/
+.navbar.navbar-default
+{
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar.navbar-default .navbar-toggle
+{
+    margin-top: 32px;
+}
+.navbar.navbar-default .navbar-brand
+{
+    height: auto;
+    padding: 20px 15px 20px;
+}
+@media only screen and (min-width: 768px)
+{
+    #main-menu.navbar-default
+    {
+        background: rgba(255, 255, 255, 0.9);
+        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+    }
+    #main-menu.navbar-default .navbar-nav > li > a
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #main-menu.navbar-default .navbar-nav > li.active > a, #main-menu.navbar-default .navbar-nav > li.open > a, #main-menu.navbar-default .navbar-nav > li:hover > a
+    {
+        padding-top:17px;
+        border-top: 3px solid #666;
+    }
+
+    #nav-home
+    {
+        background-color: #e44a1a;
+        color: white;
+    }
+
+    #nav-about
+    {
+        background-color: #ff800a;
+        color: white;
+    }
+    #nav-getinvolved
+    {
+        background-color: #dbc904;
+        color: white;
+    }
+    #nav-eventinfo
+    {
+        background-color: #91ba04;
+        color: white;
+    }
+    #nav-competitions
+    {
+        background-color: #0c98b3;
+        color: white;
+    }
+    #nav-news
+    {
+        background-color: #3274b1;
+        color: white;
+    }
+    #nav-contacts
+    {
+        background-color: #6635a2;
+        color: white;
+    }
+
+
+    #main-menu.navbar-default .dropdown-menu
+    {
+        padding: 0 20px;
+        min-width: 220px;
+        background-color: rgba(26, 28, 40, 0.9);
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        background-clip: inherit;
+    }
+    #main-menu.navbar-default .dropdown-menu > li
+    {
+        border-left: 3px solid transparent;
+        margin-left: -20px;
+        padding-left: 17px;
+        -webit-transition: border-color 400ms;
+        transition: border-color 400ms;
+    }
+    #main-menu.navbar-default .dropdown-menu > li > a
+    {
+        border-top: 1px solid #404455;
+        padding: 15px 0;
+        color: #eeeeee;
+    }
+    #main-menu.navbar-default .dropdown-menu > li:first-child > a
+    {
+        border-top: 0;
+    }
+    #main-menu.navbar-default .dropdown-menu > li.active, #main-menu.navbar-default .dropdown-menu > li.open, #main-menu.navbar-default .dropdown-menu > li:hover
+    {
+        border-left-color: #45aed6;
+    }
+    #main-menu.navbar-default .dropdown-menu > li.active > a, #main-menu.navbar-default .dropdown-menu > li.open > a, #main-menu.navbar-default .dropdown-menu > li:hover > a
+    {
+        color: #45aed6;
+        background-color: transparent;
+    }
+} /*End of Media Query*/
+
+/***********************
+********* Footer ******
+************************/
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  background: #2e2e2e;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover {
+  color: #45aed6;
+}
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 -7.5px;
+}
+#footer ul > li {
+  display: inline-block;
+  margin: 0 7.5px;
+}
+@media only screen and (min-width: 768px) {
+  #footer .social-icons {
+    float: right;
+  }
+}
+.form-control {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+
+body {
+    background-color: #e9e9e9;
+}
+
