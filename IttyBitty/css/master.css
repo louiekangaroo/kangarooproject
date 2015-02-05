@@ -52,7 +52,7 @@
 	background-color: #8db700;
 	padding: 30px;
 	border-radius: 15px;
-	float: right;
+	
 }
 
 .btn {
@@ -69,7 +69,7 @@
   background: #2a95be;
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px) /*TABLET and WEB*/
 {
     #main-menu.navbar-default
     {
@@ -165,10 +165,25 @@
         color: #666;
         background-color: transparent;
     }
+	
+	
     
     /*SUBMENU*/
     .dropdown-submenu {
     position: relative;
+}
+
+.home-background-1 {
+	background-color: #0c96b1;
+	padding: 30px;
+	border-radius: 15px;
+	
+}
+.home-background-2 {
+	background-color: #8db700;
+	padding: 30px;
+	border-radius: 15px;
+	float: right;
 }
 
 .dropdown-submenu>.dropdown-menu {
@@ -222,11 +237,18 @@
     
 } /*End of Media Query*/
 
+@media (max-width:360px ) /*PHONE*/
+{
+    .home-background-2 {
+		margin-top: 20px;
+	}
+
+}
 /***********************
 ********* Footer ******
 ************************/
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding-top: 15px;
