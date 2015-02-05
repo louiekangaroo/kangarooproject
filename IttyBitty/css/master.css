@@ -46,14 +46,19 @@
 	background-color: #0c96b1;
 	padding: 30px;
 	border-radius: 15px;
-	
+	height: 100%;
+	overflow: auto;
+	margin-left:8%;
 }
 .home-background-2 {
 	background-color: #8db700;
 	padding: 30px;
 	border-radius: 15px;
-	
+	height: 100%;
+	overflow: auto;
+	margin-left:5px;
 }
+
 
 .btn {
   border-width: 0;
@@ -173,18 +178,6 @@
     position: relative;
 }
 
-.home-background-1 {
-	background-color: #0c96b1;
-	padding: 30px;
-	border-radius: 15px;
-	
-}
-.home-background-2 {
-	background-color: #8db700;
-	padding: 30px;
-	border-radius: 15px;
-	float: right;
-}
 
 .dropdown-submenu>.dropdown-menu {
     top: 60px;
@@ -241,6 +234,9 @@
 {
     .home-background-2 {
 		margin-top: 20px;
+	}
+	.home-background-1 {
+		margin-left: 0;
 	}
 
 }
