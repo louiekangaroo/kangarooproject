@@ -16,6 +16,59 @@
     height: auto;
     padding: 20px 15px 20px;
 }
+.navbar-nav > li > .dropdown-menu {
+    margin-left: -67px;   
+	margin-top: 4px;
+}
+
+/*************************
+*******Main Section******
+**************************/
+#home {
+  padding: 100px 0;
+}
+.column-title {
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  position: relative;
+}
+.column-title:after {
+  content: " ";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 40%;
+  border-bottom: 1px solid #e44a1a;
+}
+.home-background-1 {
+	background-color: #0c96b1;
+	padding: 30px;
+	border-radius: 15px;
+	
+}
+.home-background-2 {
+	background-color: #8db700;
+	padding: 30px;
+	border-radius: 15px;
+	float: right;
+}
+
+.btn {
+  border-width: 0;
+  border-bottom-width: 3px;
+  border-radius: 3px;
+}
+.btn.btn-primary {
+  background: #45aed6;
+  border-color: #2a95be;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background: #2a95be;
+}
+
 @media only screen and (min-width: 768px)
 {
     #main-menu.navbar-default
@@ -27,7 +80,7 @@
     #main-menu.navbar-default .navbar-nav > li > a
     {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 24px;
     }
     #main-menu.navbar-default .navbar-nav > li.active > a, #main-menu.navbar-default .navbar-nav > li.open > a, #main-menu.navbar-default .navbar-nav > li:hover > a
     {
@@ -39,6 +92,7 @@
     {
         background-color: #e44a1a;
         color: white;
+		
     }
 
     #nav-about
@@ -96,7 +150,7 @@
     {
         border-top: 1px solid #404455;
         padding: 15px 0;
-        color: #eeeeee;
+        color: #000;
     }
     #main-menu.navbar-default .dropdown-menu > li:first-child > a
     {
@@ -186,33 +240,10 @@
 #footer a:hover {
   color: #45aed6;
 }
-#footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 -7.5px;
-}
-#footer ul > li {
-  display: inline-block;
-  margin: 0 7.5px;
-}
-@media only screen and (min-width: 768px) {
-  #footer .social-icons {
-    float: right;
-  }
-}
-.form-control {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
 
 
-body {
-    background-color: #e9e9e9;
-}
 
-.navbar-nav > li > .dropdown-menu {
-    margin-left: -67px;   
-}
+
 
 
 
