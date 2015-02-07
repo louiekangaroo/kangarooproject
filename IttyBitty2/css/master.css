@@ -1,100 +1,75 @@
+body {
+  background: url("../images/bg.jpg");
+  background-size: cover;
+
+  font-size: "Segoe UI";
+}
+
 .homepagetab {
 position: relative;
 width: 684px;
 height: 684px;
-margin: -100px auto 0 auto;
+margin: 0 auto;
 }
 
-.homepagetab ul li.item1 {
-     display: block;
+.circle-design {
+    display: table-cell;
+    width:100px;
+    height:100px;
+    border-radius:360px;
+    font-size:12px;
+    
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background-color: rgba(61, 112, 133, 0.8);  
+}
+
+.circle-design:hover {
+    background-color: #5294af;
+    font-weight: bold;
+    cursor: pointer;
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.homepagetab .item1 {
+    display: block;
     top: 90px;
     left: 287px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
-.homepagetab ul li.item2 {
-       display: block;
+.homepagetab .item2 {
+    display: block;
     top: 136px;
     left: 418px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
-.homepagetab ul li.item3 {
+.homepagetab .item3 {
     display: block;
     top: 254px;
     left: 488px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
-
-
-.homepagetab ul li.item4 {
+.homepagetab .item4 {
     display: block;
     top: 391px;
     left: 465px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
-.homepagetab ul li.item5 {
+.homepagetab .item5 {
     display: block;
     top: 482px;
     left: 360px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
-.homepagetab ul li.item6 {
+.homepagetab .item6 {
     display: block;
     top: 485px;
     left: 222px;
-    display: table-cell;
-    width:94px;height:94px;
-    border-radius:50px;
-    font-size:12px;
-    font-family: sans-serif;
-    color:#fff;line-height:100px;
-    text-align:center;
-    background-color: #000;
-    opacity: .4;
 }
 
 .homepagetab ul li {
@@ -102,49 +77,4 @@ margin: -100px auto 0 auto;
     position: absolute;
 }
 
-
-.homepagetab ul li.item1:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
-.homepagetab ul li.item2:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
-
-.homepagetab ul li.item3:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
-.homepagetab ul li.item4:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
-
-.homepagetab ul li.item5:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
-.homepagetab ul li.item6:hover {
-       background:#53a7ea;
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all .3s ease-in-out;
-}
 
