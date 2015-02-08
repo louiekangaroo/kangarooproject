@@ -1,5 +1,5 @@
 body {
-  background: url("../images/bg.jpg");
+  background: url("../images/bg1.jpg");
   background-size: cover;
 
   font-size: "Segoe UI";
@@ -22,13 +22,24 @@ margin: 0 auto;
     color:#fff;
     line-height:100px;
     text-align:center;
-    background-color: rgba(118, 145, 166, 0.7);  
+    background-color: rgba(118, 145, 166, 0.7) ;  
     text: none;
     
 }
 
 .circle-design:hover {
     background-color: #5294af;
+    font-weight: bold;
+    cursor: pointer;
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.homepagetab .item7 {
+    background-color: transparent;
     font-weight: bold;
     cursor: pointer;
 
