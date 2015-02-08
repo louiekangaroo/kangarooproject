@@ -3,8 +3,6 @@ body {
   background-size: cover;
 
   font-size: "Segoe UI";
-
-  top:0;
 }
 
 .homepagetab {
@@ -19,12 +17,14 @@ margin: 0 auto;
     width:100px;
     height:100px;
     border-radius:360px;
-    font-size:12px;
+    font-size:11px;
     
     color:#fff;
     line-height:100px;
     text-align:center;
     background-color: rgba(118, 145, 166, 0.7);  
+    text: none;
+    
 }
 
 .circle-design:hover {
@@ -38,46 +38,20 @@ margin: 0 auto;
     transition: all .3s ease-in-out;
 }
 
-.homepagetab .item1 {
-    display: block;
-    top: 90px;
-    left: 287px;
+.homepagetab .item1,.homepagetab .item2,.homepagetab .item3,.homepagetab .item4,.homepagetab .item5,.homepagetab .item6, .homepagetab .item7 {
+    display: block;   
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -80px;
+    
 }
 
-.homepagetab .item2 {
-    display: block;
-    top: 136px;
-    left: 418px;
-}
-
-.homepagetab .item3 {
-    display: block;
-    top: 254px;
-    left: 488px;
-}
-
-.homepagetab .item4 {
-    display: block;
-    top: 391px;
-    left: 465px;
-}
-
-.homepagetab .item5 {
-    display: block;
-    top: 482px;
-    left: 360px;
-}
-
-.homepagetab .item6 {
-    display: block;
-    top: 485px;
-    left: 222px;
-}
 
 .homepagetab ul li {
     display: none;
     position: absolute;
 }
+
 
 /***********************
 ********* Footer ******
@@ -86,11 +60,11 @@ margin: 0 auto;
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   color: #fff;
   background: #000;
-  font-size:.9em;
+  font-size:.84em;
 }
 #footer a {
   color: #fff;
@@ -98,3 +72,7 @@ margin: 0 auto;
 #footer a:hover {
   color: #45aed6;
 }
+
+
+
+
