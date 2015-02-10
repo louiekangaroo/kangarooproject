@@ -1,0 +1,96 @@
+body {
+  background: url("../images/bg.png");
+  background-size: cover;
+
+  font-size: "Segoe UI";
+}
+
+.homepagetab {
+position: relative;
+width: 684px;
+height: 684px;
+margin: 0 auto;
+}
+
+.circle-design {
+    background:transparent url(../images/bg_tab.png) no-repeat 0px 0px;
+    background-size: contain;
+    display: table-cell;
+    width:110px;
+    height:110px;
+    border-radius:360px;
+    
+    background-position: center; 
+    line-height:110px;
+    text-align:center;
+    text: none;
+}
+
+a {
+    color: #FFFAF0; 
+    color: inherit;
+}
+
+.circle-design:hover {
+     color: #000; 
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    transition: all .3s ease-in-out;
+    
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    border-radius:100px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+
+
+
+.homepagetab .item1,.homepagetab .item2,.homepagetab .item3,.homepagetab .item4,.homepagetab .item5,.homepagetab .item6, .homepagetab .item7 {
+ display: block;   
+    position: absolute;
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:13px;
+    margin-top: -85px;
+    margin-left: -80px;
+    
+}
+
+
+.homepagetab ul li {
+    display: none;
+    position: absolute;
+}
+
+
+/***********************
+********* Footer ******
+************************/
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #fff;
+  background: #000;
+  font-size:.84em;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover {
+  color: #45aed6;
+}
+
