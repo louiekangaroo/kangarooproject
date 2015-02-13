@@ -1,20 +1,26 @@
-body {
-  background: url("../images/bg.png");
-  background-size: cover;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+*{
+	margin:0;
+    padding:0;
+}
 
-  font-size: "Segoe UI";
+body {
+	background: url("../images/bg.png");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 .homepagetab {
-position: relative;
-width: 684px;
-height: 684px;
-margin: 0 auto;
+	position: relative;
+	width: 684px;
+	height: 684px;
+	margin: 0 auto;
 }
 
 .circle-design {
     background:transparent url(../images/bg_tab.png) no-repeat 0px 0px;
-    background-size: contain;
+    background-size: cover;
     display: table-cell;
     width:110px;
     height:110px;
@@ -23,48 +29,53 @@ margin: 0 auto;
     background-position: center; 
     line-height:110px;
     text-align:center;
-    text: none;
 }
 
 a {
-    color: #FFFAF0; 
-    color: inherit;
+	color: #fff;
+}
+
+a:hover , a:active, a:visited, a:link{
+	text-decoration: none;
+	color: #fff;
 }
 
 .circle-design:hover {
-     color: #000; 
-    color: inherit;
-    font-weight: bold;
     cursor: pointer;
-
-    -webkit-transform: scale(1.4);
+  
+      -webkit-transform: scale(1.4);
     -ms-transform: scale(1.4);
     transform: scale(1.4);
     transition: all .3s ease-in-out;
-    
+
     -moz-border-radius:100px;
     -webkit-border-radius:100px;
     border-radius:100px;
+	
     -moz-box-shadow:1px 1px 4px #666;
     -webkit-box-shadow:1px 1px 4px #666;
-    box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 7px #4d4d4d;
 }
+
+.circle-design:hover a {
+	color: #4d4d4d;
+	font-size: 15px;
+}
+
+
 
 
 
 .homepagetab .item1,.homepagetab .item2,.homepagetab .item3,.homepagetab .item4,.homepagetab .item5,.homepagetab .item6, .homepagetab .item7 {
- display: block;   
+	display: block;   
     position: absolute;
     margin: 0px auto;
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 13px;
+    
     font-style: normal;
-    font-weight: bold;
+    
     text-decoration: none;
-    font-size:13px;
     margin-top: -85px;
     margin-left: -80px;
-    
 }
 
 
