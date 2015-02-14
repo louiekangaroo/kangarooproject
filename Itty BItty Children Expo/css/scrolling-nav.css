@@ -16,7 +16,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 5px;
+        
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -42,33 +42,39 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #b1b1b1;
+    background: #fff;
 }
 
-.services-section {
+.faq-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.photos-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #b1b1b1;
-}
-
-.videos-section {
+.sponsors-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #b1b1b1;
+/***********************
+********* Footer ******
+************************/
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  background: #2e2e2e;
+  font-size: .9em;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover {
+  color: #45aed6;
 }

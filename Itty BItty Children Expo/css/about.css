@@ -1,6 +1,22 @@
-.navbar-default {
-    background-color: #212121;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+
+*{
+    margin:0;
+    padding:0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+
 
 
     .navbar-default .navbar-nav > li > a {
@@ -27,8 +43,32 @@
             color: #b1b1b1;
         }
 
+#ul-menu li:nth-child(2) {
+    background-color: #0d3158;
+    
+}
+
+#ul-menu li:nth-child(3) {
+    background-color: #00bdb8;
+}
+
+#ul-menu li:nth-child(4) {
+    background-color: #006a3f;
+}
+
+#ul-menu li:nth-child(5) {
+    background-color: #9a166f;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #9aa9be;
+}
 
 
+/*Non Nav*/
 #smallLogo {
     float: left;
     margin-top: -5px;
